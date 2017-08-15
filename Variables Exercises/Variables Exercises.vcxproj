@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Conditional Assignment.cpp" />
+    <ClCompile Include="Loops Assignment.cpp" />
     <ClCompile Include="Variables_Exercise.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
