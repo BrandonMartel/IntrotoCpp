@@ -48,7 +48,7 @@ int main()
 		std::cout << "April has 30 days";
 		break;
 	case 5:
-		std::cout << "May has 30 days";
+		std::cout << "May has 31 days";
 		break;
 	case 6:
 		std::cout << "June has 30 days";
@@ -86,4 +86,5 @@ int main()
 
 	//5. Convert problem 2 into a ternary operator
 
+	int x = (y == 0) ? x = 100 : 8;
 }
