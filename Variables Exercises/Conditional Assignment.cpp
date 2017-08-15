@@ -19,7 +19,7 @@ int main()
 	//2. Write an if statement that assigns 100 to the value of x when y is equal to zero
 	
 	int x, y;
-
+	y = -1;
 	if (y == 0)
 	{
 		x = 100;
@@ -31,11 +31,12 @@ int main()
 	//It should then display the number of days in that month. If a number that doesn’t correspond 
 	//to a month is entered then the program should display an error message. You must use a switch statement
 
-	int a = 1;
-	switch (a)
+	int month = 1;
+	std::cout << "Enter a month\n";
+	std::cin >> month;
+	switch (month)
 	{
 	case 1:
-		a == 31;
 		std::cout << "January has 31 days";
 		break;
 	case 2:
@@ -86,5 +87,5 @@ int main()
 
 	//5. Convert problem 2 into a ternary operator
 
-	int x = (y == 0) ? x = 100 : 8;
+	 x = (y == 0) ? x = 100 : 8;
 }

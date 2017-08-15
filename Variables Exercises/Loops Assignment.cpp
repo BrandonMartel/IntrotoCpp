@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main()
+int main1()
 {
 	//1. What is the out put of the following code samples?
 	//a. 
@@ -46,3 +46,5 @@ int main()
 
 	//4. Create a loop that prints all even numbers between 0 and 100, without printing 0 or 100
 	system("pause");
+	return 0;
+}

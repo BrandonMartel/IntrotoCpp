@@ -1,6 +1,6 @@
 #include <iostream>
 
-void main()
+void main2()
 {
 	//You can not print to the console unless the problem specifies.
 
