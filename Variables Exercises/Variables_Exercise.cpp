@@ -32,12 +32,12 @@ void main()
 	//that swaps the values for these variables, then print the variables “a” and “b” again.
 	//You should comment your code.
 
-	int a = 5, b = 10, c;
-	cout << "beforeswapping." << en
+	int a, b, c;
+	
 
 
-		//4. Ask the user for 5 numbers and output the average of these numbers.		
+    //4. Ask the user for 5 numbers and output the average of these numbers.		
 
-		//5. Redo question 3 but allows the user to input the values to be swapped and provide information
-		//in the console proving the data was swapped.
+	//5. Redo question 3 but allows the user to input the values to be swapped and provide information
+	//in the console proving the data was swapped.
 }
