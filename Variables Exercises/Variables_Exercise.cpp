@@ -31,15 +31,38 @@ void main2()
 	//and store the result in variables called “a” and “b” print the result to screen.Write code 
 	//that swaps the values for these variables, then print the variables “a” and “b” again.
 	//You should comment your code.
-
-	int a, b, c;
+	{
+		int a, b, c;
+		std::cout << "Before Swapping" << endl;
+		std::cout << "a=" << a << "b=" << b << endl;
+		c = a;
+		a = b;
+		b = c;
+		std::cout << "After Swapping" << endl;
+		std::cout << "a=" << a << "b=" << b << endl;
+		return 0;
+	}
 
 
     //4. Ask the user for 5 numbers and output the average of these numbers.		
+	{
+		int a = 0;
+		int b = 0;
+		int c = 0;
+		int d = 0;
+		int e = 0;
+		int f = 5;
 
+		std::cout << "Type in five numbers to be averaged out\n";
+		std::cin >> a >> b >> c >> d >> e;
+		int(a + b + c + d + e) / f;
+		
+		system pause;
+	}
 
 
 
 	//5. Redo question 3 but allows the user to input the values to be swapped and provide information
 	//in the console proving the data was swapped.
+	
 }

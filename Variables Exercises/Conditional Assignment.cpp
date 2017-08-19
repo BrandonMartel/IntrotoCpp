@@ -78,7 +78,23 @@ int main()
 
 	//4. Redo problem 3 using if statements
 
-
+	int month = 1;
+	{
+		std::cout << "Enter a month\n";
+		bool month;
+		if (Days == 31)
+		{
+			You are in either January, March, May, July, August, October, or December;
+		}
+		else if (Days == 30)
+		{
+			You are in either April, June, September, or November;
+		}
+		else (Day == 28)
+		{
+			You are in Feburary;
+		}
+	}
 
 
 
@@ -87,5 +103,5 @@ int main()
 
 	//5. Convert problem 2 into a ternary operator
 
-	 x = (y == 0) ? x = 100 : 8;
+	int x = (y == 0) ? x = 100 : 8;
 }

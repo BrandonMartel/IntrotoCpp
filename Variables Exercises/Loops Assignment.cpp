@@ -45,6 +45,11 @@ int main1()
 
 
 	//4. Create a loop that prints all even numbers between 0 and 100, without printing 0 or 100
+	for (int a = 2; a >= 2 && a <= 98; a += 2)
+	{
+		std::cout << a << std::endl;
+	}
+	
 	system("pause");
 	return 0;
 }
