@@ -8,12 +8,13 @@ int main1()
 	{
 		std::cout << i << std::endl;
 	}
-
+	// the numbers 0-99
 	//b. 
 	for (int i = 100; i >= 0; i -= 2)
 	{
 		std::cout << i << std::endl;
 	}
+	// the numbers 100-2 all even numbers
 	//c. 
 	int iter = 0;
 	while (iter != 25)
@@ -21,6 +22,7 @@ int main1()
 		std::cout << iter << std::endl;
 		iter += 5;
 	}
+	// 0, 5, 10, 15, 20
 	//d. 
 	int counter = 0;
 	do
@@ -31,6 +33,8 @@ int main1()
 		else
 			std::cout << counter << std::endl;
 	} while (counter < 10);
+	//0, 2, 4, 6, 8, 10
+
 
 	//2. Using a for loop, iterate through numbers 0 to 100.
 	//-For multiples of 3 print “Fizz”
