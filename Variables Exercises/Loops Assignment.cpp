@@ -44,7 +44,22 @@ int main1()
 	//Note, you will need to use the modulus operator (%)
 	for ((int i = 0); i <= 100; i++)
 	{
-		if ()
+		if (i % 3 == 0 && i % 5 == && i > 0)
+		{
+			std::cout << "FizzBuzz\n";
+		}
+		else if (i % 5 == 0 && i > 0)
+		{
+			std::cout << "Buzz\n";
+		}
+		else if (1 % 3 == 0 && i > 0)
+		{
+			std::cout << "Fizz\n";
+		}
+		else
+		{
+			std::cout << i << std::endl;
+		}
 	}
 
 	//3. Repeat problem 2 using a while loop and a do while loop.
