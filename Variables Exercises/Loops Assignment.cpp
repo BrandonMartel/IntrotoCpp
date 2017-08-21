@@ -42,7 +42,10 @@ int main1()
 	//- For multiples of 3 and 5 print “FizzBuzz”
 	//- Otherwise print the number.
 	//Note, you will need to use the modulus operator (%)
-
+	for ((int i = 0); i <= 100; i++)
+	{
+		if ()
+	}
 
 	//3. Repeat problem 2 using a while loop and a do while loop.
 	//while loop
