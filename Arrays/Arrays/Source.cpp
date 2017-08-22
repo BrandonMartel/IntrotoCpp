@@ -36,7 +36,7 @@
 
 //4. Using the array created in problem 3 print the 5th index.
 int numbers[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
-
+std::cout<<numbers
 
 
 //5. Using a loop, populate an array of size 10 with the values 10 - 1.
