@@ -50,6 +50,11 @@ int main()
 
 
 	//5. Using a loop, populate an array of size 10 with the values 10 - 1.
+	//int numbers[] = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+	//for (int i = 0; i < 10; i++)
+	//{
+		//std::cout << numbers[i] << std::endl;
+	//}
 
 
 
@@ -57,6 +62,11 @@ int main()
 	//6. Create a an array of size five then ask the user to input five 
 	//number into the array. Display the largest and smallest numbers 
 	//to the console.
+
+
+
+
+
 	//7. Create a program that creates a small 3x3 array of integers.Use a nested for 
 	//loop to initialise the numbers 1 - 9. Output the numbers in a grid format.
 }
