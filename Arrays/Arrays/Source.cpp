@@ -16,21 +16,21 @@
 
 //2. What is the size in memory of the following arrays
 //a. 
-float heights[5];
+//float heights[5];
 //20 btyes
 
 //b. 
-int ages[10];
+//int ages[10];
 //40 bytes
 
 //c. 
-char letters[26];
+//char letters[26];
 //26 bytes
 
 
 
 //3. Declare an array with the values 1 - 10;
-int numbers[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+//int numbers[10] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
 
 
