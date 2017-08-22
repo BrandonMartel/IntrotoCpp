@@ -60,9 +60,16 @@ int main()
 
 
 	//6. Create a an array of size five then ask the user to input five 
-	//number into the array. Display the largest and smallest numbers 
+	//numbers into the array. Display the largest and smallest numbers 
 	//to the console.
-
+	int numbers[5];
+	char a = 0;
+	char b = 0;
+	char c = 0;
+	char d = 0;
+	char e = 0;
+	std::cout << "Enter five numbers\n" << endl;
+	std::cin >> a >> b >> c >> d >> e;
 
 
 
