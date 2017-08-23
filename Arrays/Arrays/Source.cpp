@@ -77,7 +77,7 @@ int main()
 
 	//7. Create a program that creates a small 3x3 array of integers.Use a nested for 
 	//loop to initialise the numbers 1 - 9. Output the numbers in a grid format.
-	
+
 	int grid[3][3] = { { 1,2,3 },{ 4,5,6 },{ 7,8,9 } };
 	for (int i = 0; i < 3; i++)
 	{
