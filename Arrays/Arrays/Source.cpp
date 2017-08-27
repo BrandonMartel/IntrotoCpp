@@ -72,8 +72,22 @@ int main()
 	int largeNumber = 0;
 	std::cout << "Enter five numbers\n" << endl;
 	std::cin >> a >> b >> c >> d >> e;
-
-
+	for (int i = 0; i < 5; i++)
+	{
+		if (a <= numbers[i])
+			continue;
+		else if (a > numbers[i])
+			a = numbers[i];
+	}
+	smallNumber = a;
+	for (int i = 0; i < 5; i++)
+	{
+		if (a >= numbers[i])
+			continue;
+		else if (a < numbers[i])
+			a = numbers[i];
+	}
+	largeNumber = a;
 
 
 
