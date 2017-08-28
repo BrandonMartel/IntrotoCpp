@@ -19,3 +19,52 @@ int main()
 int dragons[3][7] = { {10, 1, 11, 4, 0, 20, 5}, 
 					  {5, 17, 1, 2, 6, 12, 8}, 
 					  {3, 8, 9, 15, 9, 4, 9} };
+
+float avgAllDragons = 0.f;
+int greatestDrag = 0;
+int leastDrag = 0;
+int i = 0;
+int n = 0;
+float startIter = 0.f;
+float avgFoodDrag = 0.f;
+float avgDayOne = 0.f;
+
+while (i < 1)
+{
+	for (n = 0; n < 7; n++)
+	{
+		startIter += dragons[i][n];
+	}
+	avgFoodDrag = startIter / 7;
+	std::cout << "Average Food for Bob" << avgFoodDrag<< std::endl;
+	std::cout << std::endl;
+	break;
+}
+i = 1;
+startIter = 0;
+avgFoodDrag = 0.f;
+while (i = 1)
+{
+	for (n = 0; n < 7; n++)
+	{
+		startIter += dragons[i][n];
+	}
+	avgFoodDrag = startIter / 7;
+	std::cout << "average food for Cat" << avgFoodDrag << std::endl;
+	std::cout << std::endl;
+	break;
+}
+i = 2;
+startIter = 0;
+avgFoodDrag = 0.f;
+while (i = 2)
+{
+	for (n = 0; n < 7; n++)
+	{
+		startIter += dragons[i][n];
+	}
+	avgFoodDrag = startIter / 7;
+	std::cout << "average food for Scotty" << avgFoodDrag << std::endl;
+	std::cout << std::endl;
+	break;
+}
