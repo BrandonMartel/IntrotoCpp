@@ -82,7 +82,7 @@ for (i = 0; i < 3; i++)
 }
 std::cout << "The least amount of food eaten by any dragon on any day is:" << std::endl;
 std::cout << std::endl;
-std::cout << smallNum << " kilos." << std::endl;
+std::cout << smallNum << " kilos" << std::endl;
 for (i = 0; i < 3; i++)
 {
 	for (n = 0; n < 7; n++)
@@ -93,8 +93,8 @@ for (i = 0; i < 3; i++)
 			largeNum = dragArray[i][n];
 	}
 }
-std::cout << "The biggest amount of food eaten by any dragon on any day is:" << std::endl;
+std::cout << "The largest amount of food eaten by any dragon on any day is:" << std::endl;
 std::cout << std::endl;
-std::cout << largeNum << " kilos." << std::endl;
+std::cout << largeNum << " kilos" << std::endl;
 system("pause");
 }
