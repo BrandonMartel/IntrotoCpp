@@ -15,7 +15,7 @@
 #include <iostream>;
 
 int main()
-
+{
 int dragons[3][7] = { {10, 1, 11, 4, 0, 20, 5}, 
 					  {5, 17, 1, 2, 6, 12, 8}, 
 					  {3, 8, 9, 15, 9, 4, 9} };
@@ -67,4 +67,34 @@ while (i = 2)
 	std::cout << "average food for Scotty" << avgFoodDrag << std::endl;
 	std::cout << std::endl;
 	break;
+}
+int smallNum = dragons[0][0];
+int largeNum = dragons[0][0];
+for (i = 0; i < 3; i++)
+{
+	for (n = 0; n < 7; n++)
+	{
+		if (smallNum <= dragons[i][n])
+			continue;
+		else if (smallNum > dragons[i][n])
+			smallNum = dragons[i][n];
+	}
+}
+std::cout << "The least amount of food eaten by any dragon on any day is:" << std::endl;
+std::cout << std::endl;
+std::cout << smallNum << " kilos." << std::endl;
+for (i = 0; i < 3; i++)
+{
+	for (n = 0; n < 7; n++)
+	{
+		if (largeNum >= dragArray[i][n])
+			continue;
+		else if (largeNum < dragArray[i][n])
+			largeNum = dragArray[i][n];
+	}
+}
+std::cout << "The biggest amount of food eaten by any dragon on any day is:" << std::endl;
+std::cout << std::endl;
+std::cout << largeNum << " kilos." << std::endl;
+system("pause");
 }
