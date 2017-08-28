@@ -87,10 +87,10 @@ for (i = 0; i < 3; i++)
 {
 	for (n = 0; n < 7; n++)
 	{
-		if (largeNum >= dragArray[i][n])
+		if (largeNum >= dragons[i][n])
 			continue;
-		else if (largeNum < dragArray[i][n])
-			largeNum = dragArray[i][n];
+		else if (largeNum < dragons[i][n])
+			largeNum = dragons[i][n];
 	}
 }
 std::cout << "The largest amount of food eaten by any dragon on any day is:" << std::endl;
