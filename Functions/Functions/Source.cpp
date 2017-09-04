@@ -33,5 +33,18 @@ void numberswap()
 
 void avgnum()
 {
+	float a;
+	float b;
+	float c;
+	float d;
+	float e;
+	float f = 5;
 
+	cout << "Enter five numbers to be averaged out" << endl;
+	cin >> a >> b >> c >> d >> e;
+	float g = (a + b + c + d + e) / f;
+
+	cout << "The Average of the set is " << g << endl;
+
+	return 0;
 }
