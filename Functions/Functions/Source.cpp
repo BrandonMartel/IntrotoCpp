@@ -30,3 +30,8 @@ void numberswap()
 	cout << "The value of b is now " << b << endl;
 	return 0;
 }
+
+void avgnum()
+{
+
+}
