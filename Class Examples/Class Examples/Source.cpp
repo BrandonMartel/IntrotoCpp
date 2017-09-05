@@ -41,6 +41,19 @@ int main()
 	std::cout << MultiplyByTen(2) << std::endl;
 	std::cout << Halfer(8) << std::endl;
 	std::cout << Double(4) << std::endl;
+
+	char name[] = "Matthew";
+
+	int BackIter = 6;
+	for (int i = 0; i < 7; i++)
+	{
+		char helper = name[i];
+		name[i] = name[BackIter];
+		name[BackIter] = helper;
+		BackIter--;
+	}
+	std::cout << name << std::endl;
+
 	system("pause");
 }
 
@@ -63,4 +76,4 @@ void DoubleArray(int SomeArray[], int len)
 	{
 		Double(SomeArray[i]);
 	}
-}
+
