@@ -31,3 +31,14 @@ float Halfer(float a)
 	float half = a / 2;
 	return half;
 }
+
+
+
+int main()
+{
+	std::cout << AddTwoNumbers(10, 15) << std::endl;
+	std::cout << SubtractThreeNumbers(15, 5, 3) << std::endl;
+	std::cout << MultiplyByTen(2) << std::endl;
+	std::cout << Halfer(8) << std::endl;
+	system("pause");
+}
