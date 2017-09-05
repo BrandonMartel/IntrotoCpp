@@ -57,7 +57,7 @@ int Double(int a)
 
 
 
-int DoubleArray(int SomeArray[], int len)
+void DoubleArray(int SomeArray[], int len)
 {
 	for (int i = 0; i < len; i++)
 	{
