@@ -42,18 +42,6 @@ int main()
 	std::cout << Halfer(8) << std::endl;
 	std::cout << Double(4) << std::endl;
 
-	char name[] = "Matthew";
-
-	int BackIter = 6;
-	for (int i = 0; i < 7/2; i++)
-	{
-		char helper = name[i];
-		name[i] = name[BackIter];
-		name[BackIter] = helper;
-		BackIter--;
-	}
-	std::cout << name << std::endl;
-
 	system("pause");
 }
 
@@ -77,3 +65,33 @@ void DoubleArray(int SomeArray[], int len)
 		Double(SomeArray[i]);
 	}
 
+
+
+
+	char name[] = "Matthew";
+
+	int BackIter = 6;
+	for (int i = 0; i < 7 / 2; i++)
+	{
+		char helper = name[i];
+		name[i] = name[BackIter];
+		name[BackIter] = helper;
+		BackIter--;
+	}
+	std::cout << name << std::endl;
+
+
+
+
+	void ReverseString(char arrayName[], char len)
+	{
+		int backIter = len;
+		for (int i = 0; i < 7; i++)
+		{
+			char helper = arrayName[i];
+			arrayName[i] = arrayName[backIter];
+			arrayName[backIter] = helper;
+			backIter--;
+		}
+		std::cout << arrayName << std::endl;
+	}
