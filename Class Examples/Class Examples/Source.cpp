@@ -45,7 +45,7 @@ int main()
 	char name[] = "Matthew";
 
 	int BackIter = 6;
-	for (int i = 0; i < 7; i++)
+	for (int i = 0; i < 7/2; i++)
 	{
 		char helper = name[i];
 		name[i] = name[BackIter];
