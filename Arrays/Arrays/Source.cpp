@@ -87,7 +87,7 @@ int main()
 		//else if (a < numbers[i])
 			//a = numbers[i];
 	//}
-	largeNumber = a;
+	//largeNumber = a;
 
 
 
