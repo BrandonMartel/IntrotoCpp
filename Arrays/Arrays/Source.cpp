@@ -62,32 +62,32 @@ int main()
 	//6. Create a an array of size five then ask the user to input five 
 	//numbers into the array. Display the largest and smallest numbers 
 	//to the console.
-	int numbers[5] = { a, b, c, d, e };
-	int a = 0;
-	int b = 0;
-	int c = 0;
-	int d = 0;
-	int e = 0;
-	int smallNumber = 0;
-	int largeNumber = 0;
-	std::cout << "Enter five numbers\n" << endl;
-	std::cin >> a >> b >> c >> d >> e;
-	for (int i = 0; i < 5; i++)
-	{
-		if (a <= numbers[i])
-			continue;
-		else if (a > numbers[i])
-			a = numbers[i];
-	}
-	smallNumber = a;
-	for (int i = 0; i < 5; i++)
-	{
-		if (a >= numbers[i])
-			continue;
-		else if (a < numbers[i])
-			a = numbers[i];
-	}
-	largeNumber = a;
+	//int numbers[5] = { a, b, c, d, e };
+	//int a = 0;
+	//int b = 0;
+	//int c = 0;
+	//int d = 0;
+	//int e = 0;
+	//int smallNumber = 0;
+	//int largeNumber = 0;
+	//std::cout << "Enter five numbers\n" << endl;
+	//std::cin >> a >> b >> c >> d >> e;
+	//for (int i = 0; i < 5; i++)
+	//{
+		//if (a <= numbers[i])
+		//	continue;
+		//else if (a > numbers[i])
+	//		a = numbers[i];
+	//}
+	//smallNumber = a;
+	//for (int i = 0; i < 5; i++)
+	//{
+		//if (a >= numbers[i])
+			//continue;
+		//else if (a < numbers[i])
+			//a = numbers[i];
+	//}
+	//largeNumber = a;
 
 
 
