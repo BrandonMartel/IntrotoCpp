@@ -1,7 +1,15 @@
 #include <iostream>
 
-int main()
+int HelloWorld()
 {
 	std::cout << "Hello World! " << std::endl;
+}
+
+
+
+
+int main()
+{
+	HelloWorld();
 	system("pause");
 }
